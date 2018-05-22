@@ -1,0 +1,418 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,100,400|Roboto+Condensed:700);
+@font-face {
+    font-family: blackout_mid;
+    src: url(fonts/Blackout-Midnight.ttf);
+}
+
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    min-width: 1000px;
+    overflow: visible;
+    background: #999999;
+}
+#body{
+    position: relative;
+  	width: 100%;
+  	height: 100%;
+  	background-color: #000000;
+}
+/* gallery */
+#body-gallery{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+#images-row{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #181818;
+    text-align: center;
+    color: white;
+    font-family: 'blackout_mid','Roboto',Arial, sans-serif;
+    font-size: 28px;
+    padding-top: 100px;
+}
+#images-row a{
+    margin: 0 auto;
+    display: inline;
+    padding: 5px;
+}
+#images-row img{
+    width: 100px;
+    height: 100px;
+    border: solid 2px transparent;
+    border-radius: 20px;
+}
+#images-row img:hover{
+    border-color: #1a75ff;
+}
+#galleryimg{
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    width: 500px;
+    height: 300px;
+    padding: 20px; 
+}
+/*comments*/
+#body-comments{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #8000ff;
+}
+#comment{
+    position: relative;
+    height: 100vh;
+    width: 100%
+}
+#Comment-body{
+    position: relative;
+    width: 30%;
+    height: 60%;
+    top: 20%;
+    left: 30%;
+    padding: 3%;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #999999;
+}
+#Comment-body table {
+    margin: 0 auto;
+}
+#Comment-body table tr {
+    width: 400px;
+    height: 30px;
+}
+#Comment-body table tr td{
+    width: 190px;
+    height: 30px;
+}
+#Comment-body table textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    padding: 1px;
+}
+#Comment-body table input{
+    width: 100%;
+    height: 25px;
+}
+#Comment-body td{
+    margin-left: 50px;
+}
+#Comment-body p{
+    margin-left: 30px;
+}
+#xmlcomment {
+    font-size: 15px;
+}
+/*Navigacija*/
+#main{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+#meni {
+    z-index: 99;
+    float: right;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    color: white; 
+    font-family: Arial , sans-serif;
+    font-size: 24px;
+    line-height: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+#meni  ul {
+    width: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+ 
+#meni ul li {
+    display: inline-block;
+}
+#meni ul li.right {
+    float: right;
+}
+#meni ul li a {
+    text-decoration: none;
+    color: white;
+}
+#meni ul li.padajucimeni {
+    position: relative;
+}
+ 
+#meni ul li.padajucimeni ul {
+    display: none;
+    width: 250px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 38px;
+    left: 0;
+    list-style-type: none;
+    background: black;
+    color: white;
+}
+#meni ul li.padajucimeni ul li {
+    display: block;
+    color: white;
+}
+ 
+#meni ul li {
+    display: inline-block;
+    padding: 12px 24px 11px 24px;
+    text-decoration: none;
+}
+#meni ul li:hover {
+    background: #ffbb33;
+    color: white;
+    cursor: pointer;
+}
+#tohome{
+	height: 100vh;
+	background-image: url("img/flat-wallpaper.png");
+    background-size: cover;
+    width: 100%;
+}
+#tohome #first {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    font-family: 'blackout_mid', 'Roboto', Arial, sans-serif;
+    font-size: 72px;
+}
+#tohome #first .wrapper-prvi {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.wrapper-prvi h1 {
+    color: #ffbb33;
+    text-shadow: 2px 2px 15px #000000;
+}
+.wrapper-prvi div {
+    display: block;
+    text-decoration: none;
+    color: violet;
+}
+.wrapper-prvi div {
+    top: 130px;
+    position: relative;
+    font-size: 48px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    width: 270px;
+    box-shadow: 2px 2px 15px #000000;
+}
+.wrapper-prvi div:hover {
+    background-color: #ffbb33;
+    color: white;
+    cursor: pointer;
+}
+#tosecond {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #8000ff;
+}
+#second img{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    width: 300px;
+    height: 300px;
+}
+.second-text{
+  position: absolute;
+  width: 50%;
+  top: 220px;
+  text-align: center;
+  color: white;
+  margin-left: 550px;
+  font-family: 'Roboto', Arial;
+  font-weight: 400;
+  font-size: 18px;
+}
+.second-text span {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 900;
+}
+#tothird{
+    position: relative;
+	height: 100vh;
+    width: 100%;
+	background-color: #2051ff;
+}
+#third img{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    width: 300px;
+    height: 300px;
+}
+.third-text{
+  position: absolute;
+  width: 50%;
+  top: 220px;
+  text-align: center;
+  color: white;
+  margin-left: 550px;
+  font-family: 'Roboto', Arial;
+  font-weight: 400;
+  font-size: 18px;
+}
+.third-text span {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 900;
+}
+#tofourth{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #00ccff;
+}
+#fourth img{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    width: 300px;
+    height: 300px;
+}
+.fourth-text{
+  position: absolute;
+  width: 50%;
+  top: 220px;
+  text-align: center;
+  color: white;
+  margin-left: 550px;
+  font-family: 'Roboto', Arial;
+  font-weight: 400;
+  font-size: 18px;
+}
+.fourth-text span{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 900;
+}
+#tofifth{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #181818;    
+}
+#fifth img{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    width: 400px;
+    height: 400px;
+}
+.fifth-text{
+  position: absolute;
+  width: 50%;
+  top: 250px;
+  text-align: center;
+  color: white;
+  margin-left: 550px;
+  font-family: 'Roboto', Arial;
+  font-weight: 400;
+  font-size: 18px;
+}
+.fifth-text span {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 900;
+}
+.fifth-text a{
+    text-decoration: none;
+    color: white;
+}
+.fifth-text a:hover{
+    color: violet;
+}
+#fifth .contact-icons{
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 20px;
+
+}
+#fifth .contact-icons ul li {
+    list-style: none;
+    display: inline-block;
+}
+#fifth .contact-icons img{
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    top: 0;
+}
+.contact-icons a{
+    height: 50px;
+    opacity: 0.7;
+}
+.contact-icons a:hover {
+    color: #ffffff;
+    padding-bottom: 11px;
+    opacity: 1;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    font-family: Arial , sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: black;
+}
+footer  ul {
+    width: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+ footer ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+footer ul li.right {
+    float: right;
+}
+footer ul li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: violet;
+}
+footer ul li:hover{
+    color: violet;
+}
+
+

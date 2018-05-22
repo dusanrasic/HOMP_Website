@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="for_rss.xsl"?>
+<rss version="2.0">
+	<channel>
+		<title>Home</title>
+		<link>../Index.html</link>
+		<description>
+		Everything you got to know about mobile phones.
+		</description>
+	<item>
+		<title>Home: Old phones </title>
+		<link>../Index.html#tosecond</link>
+		<description>
+		How all starts.
+		</description>
+		</item>
+	<item>
+		<title>Home: Modern phones </title>
+		<link>../Index.html#tothird</link>
+		<description>
+		Loking forward into mobile phones.
+		</description>
+		</item>
+	<item>
+		<title>Home: Smartphones </title>
+		<link>../Index.html#tofourth</link>
+		<description>
+		Loking forward into mobile phones.
+		</description>
+		</item>
+	<item>
+		<title>Home: About me </title>
+		<link>../Index.html#tofifth</link>
+		<description>
+		Part where you read somthenig abouth me.
+		</description>
+		</item>
+	<item>
+		<title> Gallery </title>
+		<link>../gallery.html</link>
+		<description>
+		Part where you can see some photos.
+		</description>
+	</item>
+		<item>
+		<title> Comment </title>
+		<link>../comments.html</link>
+		<description>
+		Part where you send me your opinion about site.
+		</description>
+	</item>
+	</channel>
+</rss>

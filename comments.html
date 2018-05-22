@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homp|Comments</title>
+	<link rel="icon" href="img/Sketch.png">
+			<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+		<!-- JQuerry -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+	<script type="text/javascript" src="script_jquery.js"></script>
+	<!-- JavaScript -->
+	<script type="text/javascript" src="script.js"></script>
+		<!--Meta Tags-->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="History about mobile phones.">
+	<meta name="keywords" content="Mobile, history, old, modern, smart">
+	<meta name="author" content="Dušan Rašić">
+</head>
+<body>
+<div id="body">
+<div id="body-comments">
+	<div id="meni">
+		<ul>
+			<li class='active'><a href='index.html#tohome'>Home</a></li>
+			<li class=''><a href='index.html#tosecond'>Old</a></li>
+			<li class=''><a href='index.html#tothird'>Modern</a></li>
+			<li class=''><a href='index.html#tofourth'>Smart</a></li>
+			<li class='padajucimeni'><a href='' onClick="return false;">More..</a>
+			    <ul>
+			        <li><a href="index.html#tofifth">About me</a></li>
+			        <li><a href='gallery.html'>Gallery</a></li>
+			        <li class='last' data-link="#tofooter">Documentation</li>
+			    </ul>
+			</li>
+			<li class='last' id="logindugme"><a href="comments.html">Comment</a></li>
+		</ul>
+	</div>
+	<section id="comment">
+			<div id="Comment-body">
+				<h2>Comments</h2>
+				<table name="tb">
+			    	<tr>
+			       		<td><input type="text" name="name" id="name"/></td>
+			        	<td><p>Name</p></td> 
+			    	</tr> 
+			    	<tr>
+			       		<td><input type="text" name="email" id="email"/></td>
+			        	<td><p>Email</p></td> 
+			    	</tr>
+			    	<tr>
+			       		<td><textarea name="comment" id="text" ></textarea></td>
+			        	<td><p>Comment</p></td> 
+			    	</tr>
+			    	<tr>
+			        	<td><input type="submit" value="Send" onClick="check();"/></td>
+			        	<td><input type="button" value="Results" onClick="result()"></input></td>
+			        </tr> 
+			    </table>
+			<div id="xmlcomment"></div>
+			</div>
+	</section>
+	<footer id="tofooter">
+	<ul>
+		<li><a href="index.html#tohome">Home</a></li>
+		<li><a href="xml/sitemap.xml">Sitemap</a></li>
+		<li><a href="xml/rss.xml">RSS</a></li>
+		<li><a href="documentation/Documentation.pdf">Documentation</a></li>
+	</ul>
+	</footer>
+</div>
+</div>
+</body>
+</html>

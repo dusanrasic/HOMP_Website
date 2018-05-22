@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comments>
+	<comment>
+		<name>John</name>
+		<text>This site looks nice!</text>
+	</comment>
+	<comment>
+		<name>Lisa</name>
+		<text>I like this site.</text>
+	</comment>
+	<comment>
+		<name>James</name>
+		<text>Nice projet.</text>
+	</comment>
+	<comment>
+		<name>Nick</name>
+		<text>Nice design of site.</text>
+	</comment>
+	<comment>
+		<name>Lara</name>
+		<text>Good looking site.</text>
+	</comment>
+	<comment>
+		<name>Natali</name>
+		<text>Nice sroling.</text>
+	</comment>
+</comments>
